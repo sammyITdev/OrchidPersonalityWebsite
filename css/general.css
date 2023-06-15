@@ -30,7 +30,7 @@ Medium: 11px
 --- 07 WHITESPACE
 
 - SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 55 / 64 
 / 80 / 96 / 128
 */
 
@@ -54,4 +54,9 @@ body {
 
   /* Only works if there is nothing absolutely positioned in relation to the body */
   overflow-x: hidden;
+}
+
+main {
+  margin-left: 16rem;
+  margin-right: 55rem;
 }

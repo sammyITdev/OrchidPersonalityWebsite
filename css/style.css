@@ -28,4 +28,106 @@
   text-decoration: none;
   color: #fff;
   font-size: 1.7rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  transition: all 0.4s;
+  text-decoration: underline;
+}
+
+/* **************************** */
+/* Main */
+/* **************************** */
+
+.subheading {
+  font-size: 1.7rem;
+  margin: 2rem auto 4rem 0rem;
+}
+
+.orchirds-imgs {
+  width: 80rem;
+  height: 40rem;
+}
+
+.orchird-caption {
+  font-size: 1.1rem;
+  margin: 0.5rem auto 4rem 36rem;
+}
+
+.heading-primary {
+  font-size: 4.2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #333;
+}
+
+/* **************************** */
+/* Author and Date Section */
+/* **************************** */
+
+.author-and-date {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 1rem;
+}
+
+.author-img {
+  width: 3rem;
+  border-radius: 50%;
+}
+
+.author-name,
+.publish-date {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* **************************** */
+/* Article Paragraphs Section */
+/* **************************** */
+
+.intro-par {
+  font-size: 2.2rem;
+  line-height: 1.5;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+  margin-top: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.contents-table {
+  background-color: #f9f9f9;
+  border: 1px solid #aaa;
+  padding: 1rem 0rem 0rem 1rem;
+}
+
+.contents-heading {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.55px;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.contents:link,
+.contents:visited {
+  text-decoration: none;
+  color: #be1e2d;
+}
+
+.contents:hover,
+.contents:active {
+  transition: all 0.4s;
+  text-decoration: underline;
+  color: #333;
 }
