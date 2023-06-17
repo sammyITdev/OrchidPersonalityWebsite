@@ -53,7 +53,8 @@
 
 .orchird-caption {
   font-size: 1.1rem;
-  margin: 0.5rem auto 4rem 36rem;
+  margin: 0.5rem auto 7rem 36rem;
+  color: #555;
 }
 
 .heading-primary {
@@ -130,4 +131,144 @@
   transition: all 0.4s;
   text-decoration: underline;
   color: #333;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: start;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.facebook-icon,
+.twitter-icon,
+.whatsapp-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #fff;
+  padding: 0.5rem;
+  height: 3rem;
+  border-radius: 3px;
+  font-size: 1.6rem;
+}
+
+.facebook-icon {
+  background-color: #3a579a;
+  width: 10.5rem;
+}
+
+.twitter-icon {
+  background-color: #00abf0;
+  width: 8.5rem;
+}
+
+.whatsapp-icon {
+  background-color: #1d9e11;
+  width: 10.7rem;
+}
+
+.logo-link:link,
+.logo-link:visited {
+  text-decoration: none;
+}
+
+.whatsapp-icon:hover,
+.twitter-icon:hover,
+.facebook-icon:hover {
+  transition: all 0.4s;
+  background-color: #891521;
+  transform: translateY(-0.5rem);
+  box-shadow: 5px 5px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.second-intro-par,
+.second-caption {
+  font-size: 1.7rem;
+  margin-top: 2rem;
+  line-height: 1.5;
+}
+
+.second-caption {
+  margin-bottom: 3rem;
+}
+
+.external-link:link,
+.external-link:visited {
+  text-decoration: none;
+  color: #be1e2d;
+}
+
+.external-link:hover,
+.external-link:active {
+  transition: all 0.4s;
+  color: #222;
+}
+
+/* **************************** */
+/* Orchids Description Section */
+/* **************************** */
+
+.heading-quad {
+  font-size: 3.5rem;
+  font-weight: 500;
+  margin-bottom: 3rem;
+}
+
+.orchird-par {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.orchid-last-par {
+  margin-bottom: 7rem;
+}
+
+/* **************************** */
+/* Conclusion Section */
+/* **************************** */
+
+.conclusion-par {
+  font-size: 1.7rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+/* **************************** */
+/* Related Posts Section */
+/* **************************** */
+
+.heading-tertiary {
+  font-size: 3.5rem;
+  font-weight: 400;
+  padding: 4rem 0rem 2rem 0rem;
+  border-bottom: 3px solid #222;
+  width: 50rem;
+}
+
+.posts {
+  list-style: none;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.posts-link:link,
+.posts-link:visited {
+  font-size: 1.6rem;
+  color: #be1e2d;
+  text-decoration: none;
+}
+
+.posts-link:hover,
+.posts-link:active {
+  transition: all 0.4s;
+  color: #222;
+}
+
+/* **************************** */
+/* Recent Publications Section */
+/* **************************** */
+
+.recent-pubs-tags-section {
 }

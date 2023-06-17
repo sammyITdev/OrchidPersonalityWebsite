@@ -60,3 +60,7 @@ main {
   margin-left: 16rem;
   margin-right: 55rem;
 }
+
+strong {
+  font-weight: 600;
+}
