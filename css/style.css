@@ -251,6 +251,7 @@
   list-style: none;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  line-height: 1.5;
 }
 
 .posts-link:link,
@@ -267,8 +268,92 @@
 }
 
 /* **************************** */
-/* Recent Publications Section */
+/* Recent Publications Section / Article Tag */
 /* **************************** */
 
 .recent-pubs-tags-section {
+}
+
+.article-tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.person-tag {
+  font-size: 1.7rem;
+  color: #be1e2d;
+  cursor: pointer;
+}
+
+ion-icon {
+  font-size: 16px;
+}
+
+/* **************************** */
+/* Info About Author Section */
+/* **************************** */
+
+.author-info-section {
+  border-top: 4px solid #dee2e6;
+  padding: 2rem 2rem 3rem 2rem;
+  position: relative;
+}
+
+.author-pic {
+  border-radius: 50%;
+  position: absolute;
+  top: 6rem;
+  left: 2rem;
+}
+
+.author-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem;
+  margin-left: 16rem;
+}
+
+.author-heading {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-left: -25.5rem;
+}
+
+.author-red-text {
+  color: #be1e2d;
+}
+
+.author-par {
+  font-size: 1.7rem;
+  line-height: 1.5;
+}
+
+/* **************************** */
+/* Footer Section */
+/* **************************** */
+
+.footer {
+  display: grid;
+  grid-template-columns: 10fr 1fr 1fr 1fr;
+  padding: 2rem 6rem 2rem 6rem;
+  background-color: rgb(67, 192, 255);
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 10rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  transition: all 0.5s;
+  text-decoration: underline;
 }
