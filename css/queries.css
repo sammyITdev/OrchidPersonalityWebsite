@@ -1,0 +1,42 @@
+/* **************************** */
+/* BELOW 1160px (Smaller desktops) */
+/* **************************** */
+@media (max-width: 73em) {
+  html {
+    /* 9px / 16px = 56.25% */
+    font-size: 56.25%;
+  }
+
+  .logo {
+    margin: 2rem 0rem 2rem 8rem;
+  }
+
+  .main-nav {
+    padding: 2rem 0rem 2rem 8rem;
+  }
+
+  .container {
+    margin: 0rem 20rem 0rem 12rem;
+  }
+
+  .author-pic {
+    width: 10%;
+    top: 7rem;
+    left: 4rem;
+  }
+}
+
+/* **************************** */
+/* BELOW 944px (Tablets) */
+/* **************************** */
+
+@media (max-width: 59em) {
+  html {
+    /* 8px / 16px = 0.5 = 50% */
+    font-size: 50%;
+  }
+
+  .container {
+    margin: 0rem 16rem 0rem 8rem;
+  }
+}

@@ -56,9 +56,11 @@ body {
   overflow-x: hidden;
 }
 
-main {
-  margin-left: 16rem;
-  margin-right: 55rem;
+.container {
+  /* margin-left: 16rem;
+  margin-right: 32rem; */
+  max-width: 100rem;
+  margin: 0rem 32rem 0rem 16rem;
 }
 
 strong {
