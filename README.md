@@ -44,4 +44,4 @@ SOFTWARE.
 <a href="https://abmeyerwood.com/personality-test-whats-your-choice-of-orchid-reveal-about-your-level-of-confidence/#Orchid_1">Abmeyerwood-Personality test: What’s your choice of orchid reveal about your level of confidence!</a> - Author: Jeanene T. Gordon
 
 ## Additional Info
-Created this so I can practice coding coding, not intended for commercial use. 
+Created this so I can practice coding, not intended for commercial use. 
