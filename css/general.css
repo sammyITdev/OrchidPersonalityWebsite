@@ -13,10 +13,7 @@ Bold: 700
 
 - Line heights:
 Default: 1
-Small: 1.05
-Medium: 1.2
-Large: 1.8
-Paragraph default: 1.6
+Paragraph default: 1.5
 
 - Letter Spacing
 0.75px
@@ -44,6 +41,8 @@ Medium: 11px
 html {
   font-size: 62.5%;
   overflow-x: hidden;
+
+  scroll-behavior: smooth;
 }
 
 body {
@@ -59,8 +58,13 @@ body {
 .container {
   /* margin-left: 16rem;
   margin-right: 32rem; */
-  max-width: 100rem;
+  max-width: 96rem;
   margin: 0rem 32rem 0rem 16rem;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(0, 128, 255, 0.5);
 }
 
 strong {
