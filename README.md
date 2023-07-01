@@ -2,7 +2,7 @@
 <strong>Description</strong>: Have you ever wondered what your choice of orchid can reveal about your level of confidence? Take our personality test and find out! You can gain insight into the way you think and the level of self-assurance that you have. Discover your inner strength and learn how to use it to your advantage with this fun and informative test.
 
 ## Deployment 
-Here is the deployed website at: https://orchid-personality-test.netlify.app/
+Here is the deployed website at: <a href="https://orchid-personality-test.netlify.app/">Orchid Personality Test</a>
 
 ## Built With 
 * HTML
@@ -41,7 +41,8 @@ SOFTWARE.
 
 
 ## Acknowledgements
-<a href="https://abmeyerwood.com/personality-test-whats-your-choice-of-orchid-reveal-about-your-level-of-confidence/#Orchid_1">Abmeyerwood-Personality test: What’s your choice of orchid reveal about your level of confidence!</a> - Author: Jeanene T. Gordon
+* <a href="https://abmeyerwood.com/personality-test-whats-your-choice-of-orchid-reveal-about-your-level-of-confidence/#Orchid_1">Abmeyerwood-Personality test: What’s your choice of orchid reveal about your level of confidence!</a> - Author: Jeanene T. Gordon
+* Netlify
 
 ## Additional Info
 Created this so I can practice coding, not intended for commercial use. 
